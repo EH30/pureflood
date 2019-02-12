@@ -23,8 +23,8 @@ else:
     print("Unknown System Detected")
 
 
-user_server = raw_input("SERVER: ")
-user_port = input("PORT: ")
+user_server = raw_input("\033[1;32m SERVER: \033[1;m")
+user_port = input("\033[1;32m PORT: \033[1;m")
 agent = []
 count = 0
 
