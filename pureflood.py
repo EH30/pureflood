@@ -5,6 +5,13 @@ import random
 import threading
 
 
+"""
+Educational purpose only             
+I'm not responsible for your actions 
+-----------------------------------------------------
+SUBSCRIBE: https://www.youtube.com/channel/UCKAmv8p_TRvUNrJlfiB8qBQ
+"""
+
 if sys.platform == "linux" or sys.platform == "linux2":
     os.system("clear")
 elif sys.platform == "win32":
@@ -29,7 +36,6 @@ def user_agent():
     agent.append("Mozilla/5.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)")
     agent.append("Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)")
     agent.append("Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.7; AOLBuild 4343.19; Windows NT 6.1; WOW64; Trident/5.0;")
-
     return agent
 
 
